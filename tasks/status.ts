@@ -47,6 +47,8 @@ task('status', 'Check Alchemist system status').setAction(
       await alchemist.getRecipient(),
     )
     console.log('TokenManager')
+    console.log('TokenManager')
+    console.log('TokenManager')
     console.log('  at           ', tokenManager.address)
     console.log('  owner        ', await tokenManager.owner())
     console.log(
