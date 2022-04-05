@@ -35,7 +35,7 @@
                         ".lib",
                         ".library",
                         ".zip",
-                        ".d.ts"
+                        ".d.ts",
                         ".ts"
                     ]
                 }
