@@ -1,0 +1,98 @@
+{
+    "gammaAccess": {
+        "url": "",
+        "token": ""
+    },
+    "repositories": [
+        {
+            "dataDir": "",
+            "repository": {
+                "uid": "e2537755a31748700fa827b02e56e1a2",
+                "projectName": "alcho",
+                "languages": [
+                    "TYPESCRIPT"
+                ],
+                "sources": {
+                    "baseDir": "",
+                    "exclusions": [
+                        "node_modules",
+                        ".min.js",
+                        "dist",
+                        "external",
+                        "assets",
+                        "gulp",
+                        "grunt",
+                        "libs",
+                        "-bundle.js",
+                        ".bundle.js",
+                        "swagger-ui",
+                        ".config.js",
+                        "-config.js",
+                        "UNKNOWN_FILE",
+                        ".git",
+                        ".ebextensions",
+                        "test",
+                        ".lib",
+                        ".library",
+                        ".zip",
+                        ".d.ts"
+                    ]
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "codeissues": [
+                    {
+                        "name": "tslint",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "name": "gamma_generic",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "eslint",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ],
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "mode",
+                                    "value": "git"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
