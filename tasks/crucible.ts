@@ -23,6 +23,8 @@ task('deploy-crucible-factory', 'Deploy Crucible factory contracts')
     const signer = (await ethers.getSigners())[0]
     console.log('Signer')
     console.log('  at', signer.address)
+  console.log('  at', signer.address)
+  console.log('  at', signer.address)
     console.log('  ETH', formatEther(await signer.getBalance()))
 
     // deploy contracts
